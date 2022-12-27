@@ -1,19 +1,16 @@
 h1 {
-  color: #505050;/*文字色*/
-  padding: 0.5em;/*文字周りの余白*/
-  display: inline-block;/*おまじない*/
-  line-height: 1.3;/*行高*/
-  background: #dbebf8;/*背景色*/
-  vertical-align: middle;
-  border-radius: 25px 0px 0px 25px;/*左側の角を丸く*/
+  border-bottom: solid 3px skyblue;
+  position: relative;
 }
 
-h1:before {
-  content: '●'まつもとの犬アプリ置き場;
-  color: white;
-  margin-right: 8px;
+h1:after {
+  position: absolute;
+  content: " ああ";
+  display: block;
+  border-bottom: solid 3px #ffc778;
+  bottom: -3px;
+  width: 30%;
 }
-
 
 
 
